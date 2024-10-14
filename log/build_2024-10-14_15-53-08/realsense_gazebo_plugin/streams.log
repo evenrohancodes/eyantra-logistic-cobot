@@ -1,0 +1,4 @@
+[0.113s] Invoking command in '/home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/build/realsense_gazebo_plugin': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/ur5_control:/home/rozy/ros2_ws/install/turtlesim_catch_them_all:/home/rozy/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/build/realsense_gazebo_plugin -- -j12 -l12
+[0.143s] [35m[1mConsolidate compiler generated dependencies of target realsense_gazebo_plugin[0m
+[0.172s] [ 33%] [32m[1mLinking CXX shared library librealsense_gazebo_plugin.so[0m
+[0.806s] [100%] Built target realsense_gazebo_plugin

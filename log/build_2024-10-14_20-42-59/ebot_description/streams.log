@@ -1,0 +1,48 @@
+[0.331s] Invoking command in '/home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/build/ebot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/ur5_control:/home/rozy/ros2_ws/install/turtlesim_catch_them_all:/home/rozy/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/build/ebot_description -- -j12 -l12
+[0.575s] Invoked command in '/home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/build/ebot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/ur5_control:/home/rozy/ros2_ws/install/turtlesim_catch_them_all:/home/rozy/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/build/ebot_description -- -j12 -l12
+[0.597s] Invoking command in '/home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/build/ebot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/ur5_control:/home/rozy/ros2_ws/install/turtlesim_catch_them_all:/home/rozy/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/build/ebot_description
+[0.606s] -- Install configuration: ""
+[0.606s] -- Execute custom install script
+[0.607s] -- Up-to-date symlink: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/ebot_description/share/ebot_description//launch/__pycache__/ebot_gazebo_launch.cpython-310.pyc
+[0.607s] -- Up-to-date symlink: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/ebot_description/share/ebot_description//launch/ebot_gazebo_launch.py
+[0.607s] -- Up-to-date symlink: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/ebot_description/share/ebot_description//launch/spawn_robot.py
+[0.607s] -- Up-to-date symlink: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/ebot_description/share/ebot_description//launch/start_world_launch.py
+[0.608s] -- Up-to-date symlink: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/ebot_description/share/ebot_description//launch/start_world_task1b_launch.py
+[0.608s] -- Up-to-date symlink: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/ebot_description/share/ebot_description//launch/start_world_task1c_launch.py
+[0.608s] -- Up-to-date symlink: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/ebot_description/share/ebot_description//worlds/empty.world
+[0.608s] -- Up-to-date symlink: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/ebot_description/share/ebot_description//models/ebot/ebot.gazebo
+[0.608s] -- Up-to-date symlink: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/ebot_description/share/ebot_description//models/ebot/ebot_description.xacro
+[0.608s] -- Up-to-date symlink: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/ebot_description/share/ebot_description//meshes/FUS1.STL
+[0.608s] -- Up-to-date symlink: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/ebot_description/share/ebot_description//meshes/FUS2.STL
+[0.608s] -- Up-to-date symlink: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/ebot_description/share/ebot_description//meshes/FUS3.STL
+[0.609s] -- Up-to-date symlink: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/ebot_description/share/ebot_description//meshes/FUS4.STL
+[0.609s] -- Up-to-date symlink: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/ebot_description/share/ebot_description//meshes/FWL.STL
+[0.609s] -- Up-to-date symlink: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/ebot_description/share/ebot_description//meshes/FWR.STL
+[0.609s] -- Up-to-date symlink: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/ebot_description/share/ebot_description//meshes/LHUS10.STL
+[0.609s] -- Up-to-date symlink: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/ebot_description/share/ebot_description//meshes/LHUS9.STL
+[0.609s] -- Up-to-date symlink: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/ebot_description/share/ebot_description//meshes/RHUS7.STL
+[0.609s] -- Up-to-date symlink: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/ebot_description/share/ebot_description//meshes/RHUS9.STL
+[0.609s] -- Up-to-date symlink: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/ebot_description/share/ebot_description//meshes/RUS5.STL
+[0.609s] -- Up-to-date symlink: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/ebot_description/share/ebot_description//meshes/RUS6.STL
+[0.609s] -- Up-to-date symlink: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/ebot_description/share/ebot_description//meshes/RWL.STL
+[0.610s] -- Up-to-date symlink: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/ebot_description/share/ebot_description//meshes/RWR.STL
+[0.610s] -- Up-to-date symlink: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/ebot_description/share/ebot_description//meshes/chassis.dae
+[0.610s] -- Up-to-date symlink: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/ebot_description/share/ebot_description//meshes/robot_base.stl
+[0.610s] -- Up-to-date symlink: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/ebot_description/share/ebot_description//plugins/libgazebo_collision_sensor.so
+[0.610s] -- Up-to-date symlink: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/ebot_description/share/ebot_description//plugins/libgazebo_ros_vacuum_gripper.so
+[0.611s] -- Up-to-date symlink: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/ebot_description/share/ament_index/resource_index/package_run_dependencies/ebot_description
+[0.611s] -- Up-to-date symlink: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/ebot_description/share/ament_index/resource_index/parent_prefix_path/ebot_description
+[0.611s] -- Up-to-date symlink: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/ebot_description/share/ebot_description/environment/ament_prefix_path.sh
+[0.611s] -- Up-to-date symlink: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/ebot_description/share/ebot_description/environment/ament_prefix_path.dsv
+[0.612s] -- Up-to-date symlink: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/ebot_description/share/ebot_description/environment/path.sh
+[0.612s] -- Up-to-date symlink: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/ebot_description/share/ebot_description/environment/path.dsv
+[0.613s] -- Up-to-date symlink: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/ebot_description/share/ebot_description/local_setup.bash
+[0.615s] -- Up-to-date symlink: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/ebot_description/share/ebot_description/local_setup.sh
+[0.618s] -- Up-to-date symlink: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/ebot_description/share/ebot_description/local_setup.zsh
+[0.618s] -- Up-to-date symlink: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/ebot_description/share/ebot_description/local_setup.dsv
+[0.618s] -- Symlinking: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/ebot_description/share/ebot_description/package.dsv
+[0.630s] -- Up-to-date symlink: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/ebot_description/share/ament_index/resource_index/packages/ebot_description
+[0.630s] -- Up-to-date symlink: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/ebot_description/share/ebot_description/cmake/ebot_descriptionConfig.cmake
+[0.630s] -- Up-to-date symlink: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/ebot_description/share/ebot_description/cmake/ebot_descriptionConfig-version.cmake
+[0.631s] -- Up-to-date symlink: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/ebot_description/share/ebot_description/package.xml
+[0.632s] Invoked command in '/home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/build/ebot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/ur5_control:/home/rozy/ros2_ws/install/turtlesim_catch_them_all:/home/rozy/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/build/ebot_description

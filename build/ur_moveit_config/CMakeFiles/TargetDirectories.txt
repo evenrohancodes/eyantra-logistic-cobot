@@ -1,0 +1,9 @@
+/home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/build/ur_moveit_config/CMakeFiles/uninstall.dir
+/home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/build/ur_moveit_config/CMakeFiles/ur_moveit_config_uninstall.dir
+/home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/build/ur_moveit_config/CMakeFiles/test.dir
+/home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/build/ur_moveit_config/CMakeFiles/edit_cache.dir
+/home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/build/ur_moveit_config/CMakeFiles/rebuild_cache.dir
+/home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/build/ur_moveit_config/CMakeFiles/list_install_components.dir
+/home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/build/ur_moveit_config/CMakeFiles/install.dir
+/home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/build/ur_moveit_config/CMakeFiles/install/local.dir
+/home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/build/ur_moveit_config/CMakeFiles/install/strip.dir

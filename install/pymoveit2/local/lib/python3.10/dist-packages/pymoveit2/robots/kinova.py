@@ -1,0 +1,1 @@
+/home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/pymoveit2/pymoveit2/robots/kinova.py

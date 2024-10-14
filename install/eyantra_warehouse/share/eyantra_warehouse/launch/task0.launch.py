@@ -1,0 +1,1 @@
+/home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/eyantra_warehouse/launch/task0.launch.py

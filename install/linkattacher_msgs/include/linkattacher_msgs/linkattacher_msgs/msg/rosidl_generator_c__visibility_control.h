@@ -1,0 +1,1 @@
+/home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/build/linkattacher_msgs/rosidl_generator_c/linkattacher_msgs/msg/rosidl_generator_c__visibility_control.h

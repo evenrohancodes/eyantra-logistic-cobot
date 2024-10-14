@@ -1,0 +1,10 @@
+/home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/build/realsense_gazebo_plugin/CMakeFiles/uninstall.dir
+/home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/build/realsense_gazebo_plugin/CMakeFiles/realsense_gazebo_plugin_uninstall.dir
+/home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/build/realsense_gazebo_plugin/CMakeFiles/realsense_gazebo_plugin.dir
+/home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/build/realsense_gazebo_plugin/CMakeFiles/test.dir
+/home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/build/realsense_gazebo_plugin/CMakeFiles/edit_cache.dir
+/home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/build/realsense_gazebo_plugin/CMakeFiles/rebuild_cache.dir
+/home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/build/realsense_gazebo_plugin/CMakeFiles/list_install_components.dir
+/home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/build/realsense_gazebo_plugin/CMakeFiles/install.dir
+/home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/build/realsense_gazebo_plugin/CMakeFiles/install/local.dir
+/home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/build/realsense_gazebo_plugin/CMakeFiles/install/strip.dir

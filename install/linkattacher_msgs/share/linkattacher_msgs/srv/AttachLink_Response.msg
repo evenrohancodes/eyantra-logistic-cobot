@@ -1,0 +1,1 @@
+/home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/build/linkattacher_msgs/rosidl_cmake/srv/AttachLink_Response.msg

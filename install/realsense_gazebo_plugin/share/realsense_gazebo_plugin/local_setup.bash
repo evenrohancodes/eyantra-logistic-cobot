@@ -1,0 +1,1 @@
+/home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/build/realsense_gazebo_plugin/ament_cmake_environment_hooks/local_setup.bash

@@ -1,0 +1,335 @@
+[0.467s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.467s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x78fb60da4b20>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x78fb60da66b0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x78fb60da66b0>>)
+[0.490s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.490s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.490s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.490s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.490s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.490s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.490s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot'
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(ebot_description) by extensions ['ignore', 'ignore_ament_install']
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(ebot_description) by extension 'ignore'
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(ebot_description) by extension 'ignore_ament_install'
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(ebot_description) by extensions ['colcon_pkg']
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(ebot_description) by extension 'colcon_pkg'
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(ebot_description) by extensions ['colcon_meta']
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(ebot_description) by extension 'colcon_meta'
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(ebot_description) by extensions ['ros']
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(ebot_description) by extension 'ros'
+[0.499s] DEBUG:colcon.colcon_core.package_identification:Package 'ebot_description' with type 'ros.ament_cmake' and name 'ebot_description'
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(ebot_nav2) by extensions ['ignore', 'ignore_ament_install']
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(ebot_nav2) by extension 'ignore'
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(ebot_nav2) by extension 'ignore_ament_install'
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(ebot_nav2) by extensions ['colcon_pkg']
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(ebot_nav2) by extension 'colcon_pkg'
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(ebot_nav2) by extensions ['colcon_meta']
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(ebot_nav2) by extension 'colcon_meta'
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(ebot_nav2) by extensions ['ros']
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(ebot_nav2) by extension 'ros'
+[0.499s] DEBUG:colcon.colcon_core.package_identification:Package 'ebot_nav2' with type 'ros.ament_cmake' and name 'ebot_nav2'
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(eyantra_warehouse) by extensions ['ignore', 'ignore_ament_install']
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(eyantra_warehouse) by extension 'ignore'
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(eyantra_warehouse) by extension 'ignore_ament_install'
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(eyantra_warehouse) by extensions ['colcon_pkg']
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(eyantra_warehouse) by extension 'colcon_pkg'
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(eyantra_warehouse) by extensions ['colcon_meta']
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(eyantra_warehouse) by extension 'colcon_meta'
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(eyantra_warehouse) by extensions ['ros']
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(eyantra_warehouse) by extension 'ros'
+[0.500s] DEBUG:colcon.colcon_core.package_identification:Package 'eyantra_warehouse' with type 'ros.ament_cmake' and name 'eyantra_warehouse'
+[0.500s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.500s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.500s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.500s] Level 1:colcon.colcon_core.package_identification:_identify(linkattacher_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.500s] Level 1:colcon.colcon_core.package_identification:_identify(linkattacher_msgs) by extension 'ignore'
+[0.500s] Level 1:colcon.colcon_core.package_identification:_identify(linkattacher_msgs) by extension 'ignore_ament_install'
+[0.500s] Level 1:colcon.colcon_core.package_identification:_identify(linkattacher_msgs) by extensions ['colcon_pkg']
+[0.500s] Level 1:colcon.colcon_core.package_identification:_identify(linkattacher_msgs) by extension 'colcon_pkg'
+[0.500s] Level 1:colcon.colcon_core.package_identification:_identify(linkattacher_msgs) by extensions ['colcon_meta']
+[0.500s] Level 1:colcon.colcon_core.package_identification:_identify(linkattacher_msgs) by extension 'colcon_meta'
+[0.500s] Level 1:colcon.colcon_core.package_identification:_identify(linkattacher_msgs) by extensions ['ros']
+[0.500s] Level 1:colcon.colcon_core.package_identification:_identify(linkattacher_msgs) by extension 'ros'
+[0.500s] DEBUG:colcon.colcon_core.package_identification:Package 'linkattacher_msgs' with type 'ros.ament_cmake' and name 'linkattacher_msgs'
+[0.500s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.500s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.500s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.500s] Level 1:colcon.colcon_core.package_identification:_identify(pymoveit2) by extensions ['ignore', 'ignore_ament_install']
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(pymoveit2) by extension 'ignore'
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(pymoveit2) by extension 'ignore_ament_install'
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(pymoveit2) by extensions ['colcon_pkg']
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(pymoveit2) by extension 'colcon_pkg'
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(pymoveit2) by extensions ['colcon_meta']
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(pymoveit2) by extension 'colcon_meta'
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(pymoveit2) by extensions ['ros']
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(pymoveit2) by extension 'ros'
+[0.501s] DEBUG:colcon.colcon_core.package_identification:Package 'pymoveit2' with type 'ros.ament_cmake' and name 'pymoveit2'
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(realsense_gazebo_plugin) by extensions ['ignore', 'ignore_ament_install']
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(realsense_gazebo_plugin) by extension 'ignore'
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(realsense_gazebo_plugin) by extension 'ignore_ament_install'
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(realsense_gazebo_plugin) by extensions ['colcon_pkg']
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(realsense_gazebo_plugin) by extension 'colcon_pkg'
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(realsense_gazebo_plugin) by extensions ['colcon_meta']
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(realsense_gazebo_plugin) by extension 'colcon_meta'
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(realsense_gazebo_plugin) by extensions ['ros']
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(realsense_gazebo_plugin) by extension 'ros'
+[0.502s] DEBUG:colcon.colcon_core.package_identification:Package 'realsense_gazebo_plugin' with type 'ros.ament_cmake' and name 'realsense_gazebo_plugin'
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(ur5_control) by extensions ['ignore', 'ignore_ament_install']
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(ur5_control) by extension 'ignore'
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(ur5_control) by extension 'ignore_ament_install'
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(ur5_control) by extensions ['colcon_pkg']
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(ur5_control) by extension 'colcon_pkg'
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(ur5_control) by extensions ['colcon_meta']
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(ur5_control) by extension 'colcon_meta'
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(ur5_control) by extensions ['ros']
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(ur5_control) by extension 'ros'
+[0.503s] DEBUG:colcon.colcon_core.package_identification:Package 'ur5_control' with type 'ros.ament_python' and name 'ur5_control'
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(ur_description) by extensions ['ignore', 'ignore_ament_install']
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(ur_description) by extension 'ignore'
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(ur_description) by extension 'ignore_ament_install'
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(ur_description) by extensions ['colcon_pkg']
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(ur_description) by extension 'colcon_pkg'
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(ur_description) by extensions ['colcon_meta']
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(ur_description) by extension 'colcon_meta'
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(ur_description) by extensions ['ros']
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(ur_description) by extension 'ros'
+[0.503s] DEBUG:colcon.colcon_core.package_identification:Package 'ur_description' with type 'ros.ament_cmake' and name 'ur_description'
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(ur_moveit_config) by extensions ['ignore', 'ignore_ament_install']
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(ur_moveit_config) by extension 'ignore'
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(ur_moveit_config) by extension 'ignore_ament_install'
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(ur_moveit_config) by extensions ['colcon_pkg']
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(ur_moveit_config) by extension 'colcon_pkg'
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(ur_moveit_config) by extensions ['colcon_meta']
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(ur_moveit_config) by extension 'colcon_meta'
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(ur_moveit_config) by extensions ['ros']
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(ur_moveit_config) by extension 'ros'
+[0.504s] DEBUG:colcon.colcon_core.package_identification:Package 'ur_moveit_config' with type 'ros.ament_cmake' and name 'ur_moveit_config'
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(ur_simulation_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(ur_simulation_gazebo) by extension 'ignore'
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(ur_simulation_gazebo) by extension 'ignore_ament_install'
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(ur_simulation_gazebo) by extensions ['colcon_pkg']
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(ur_simulation_gazebo) by extension 'colcon_pkg'
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(ur_simulation_gazebo) by extensions ['colcon_meta']
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(ur_simulation_gazebo) by extension 'colcon_meta'
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(ur_simulation_gazebo) by extensions ['ros']
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(ur_simulation_gazebo) by extension 'ros'
+[0.504s] DEBUG:colcon.colcon_core.package_identification:Package 'ur_simulation_gazebo' with type 'ros.ament_cmake' and name 'ur_simulation_gazebo'
+[0.504s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.504s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.505s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.505s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.505s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.549s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.549s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.563s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 10 installed packages in /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install
+[0.575s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/rozy/ros2_ws/install
+[0.581s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 0 installed packages in /home/rozy/nav2_ws/install
+[0.589s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 387 installed packages in /opt/ros/humble
+[0.589s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.640s] Level 5:colcon.colcon_core.verb:set package 'ebot_description' build argument 'cmake_args' from command line to 'None'
+[0.640s] Level 5:colcon.colcon_core.verb:set package 'ebot_description' build argument 'cmake_target' from command line to 'None'
+[0.640s] Level 5:colcon.colcon_core.verb:set package 'ebot_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.640s] Level 5:colcon.colcon_core.verb:set package 'ebot_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.640s] Level 5:colcon.colcon_core.verb:set package 'ebot_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.640s] Level 5:colcon.colcon_core.verb:set package 'ebot_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.640s] Level 5:colcon.colcon_core.verb:set package 'ebot_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.640s] Level 5:colcon.colcon_core.verb:set package 'ebot_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.640s] Level 5:colcon.colcon_core.verb:set package 'ebot_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.640s] DEBUG:colcon.colcon_core.verb:Building package 'ebot_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/build/ebot_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/ebot_description', 'merge_install': False, 'path': '/home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/ebot_description', 'symlink_install': True, 'test_result_base': None}
+[0.647s] Level 5:colcon.colcon_core.verb:set package 'ebot_nav2' build argument 'cmake_args' from command line to 'None'
+[0.647s] Level 5:colcon.colcon_core.verb:set package 'ebot_nav2' build argument 'cmake_target' from command line to 'None'
+[0.647s] Level 5:colcon.colcon_core.verb:set package 'ebot_nav2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.647s] Level 5:colcon.colcon_core.verb:set package 'ebot_nav2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.647s] Level 5:colcon.colcon_core.verb:set package 'ebot_nav2' build argument 'cmake_clean_first' from command line to 'False'
+[0.647s] Level 5:colcon.colcon_core.verb:set package 'ebot_nav2' build argument 'cmake_force_configure' from command line to 'False'
+[0.647s] Level 5:colcon.colcon_core.verb:set package 'ebot_nav2' build argument 'ament_cmake_args' from command line to 'None'
+[0.647s] Level 5:colcon.colcon_core.verb:set package 'ebot_nav2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.647s] Level 5:colcon.colcon_core.verb:set package 'ebot_nav2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.647s] DEBUG:colcon.colcon_core.verb:Building package 'ebot_nav2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/build/ebot_nav2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/ebot_nav2', 'merge_install': False, 'path': '/home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/ebot_nav2', 'symlink_install': True, 'test_result_base': None}
+[0.653s] Level 5:colcon.colcon_core.verb:set package 'eyantra_warehouse' build argument 'cmake_args' from command line to 'None'
+[0.653s] Level 5:colcon.colcon_core.verb:set package 'eyantra_warehouse' build argument 'cmake_target' from command line to 'None'
+[0.653s] Level 5:colcon.colcon_core.verb:set package 'eyantra_warehouse' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.653s] Level 5:colcon.colcon_core.verb:set package 'eyantra_warehouse' build argument 'cmake_clean_cache' from command line to 'False'
+[0.653s] Level 5:colcon.colcon_core.verb:set package 'eyantra_warehouse' build argument 'cmake_clean_first' from command line to 'False'
+[0.653s] Level 5:colcon.colcon_core.verb:set package 'eyantra_warehouse' build argument 'cmake_force_configure' from command line to 'False'
+[0.653s] Level 5:colcon.colcon_core.verb:set package 'eyantra_warehouse' build argument 'ament_cmake_args' from command line to 'None'
+[0.653s] Level 5:colcon.colcon_core.verb:set package 'eyantra_warehouse' build argument 'catkin_cmake_args' from command line to 'None'
+[0.653s] Level 5:colcon.colcon_core.verb:set package 'eyantra_warehouse' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.653s] DEBUG:colcon.colcon_core.verb:Building package 'eyantra_warehouse' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/build/eyantra_warehouse', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/eyantra_warehouse', 'merge_install': False, 'path': '/home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/eyantra_warehouse', 'symlink_install': True, 'test_result_base': None}
+[0.659s] Level 5:colcon.colcon_core.verb:set package 'linkattacher_msgs' build argument 'cmake_args' from command line to 'None'
+[0.659s] Level 5:colcon.colcon_core.verb:set package 'linkattacher_msgs' build argument 'cmake_target' from command line to 'None'
+[0.659s] Level 5:colcon.colcon_core.verb:set package 'linkattacher_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.659s] Level 5:colcon.colcon_core.verb:set package 'linkattacher_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.659s] Level 5:colcon.colcon_core.verb:set package 'linkattacher_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.659s] Level 5:colcon.colcon_core.verb:set package 'linkattacher_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.660s] Level 5:colcon.colcon_core.verb:set package 'linkattacher_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.660s] Level 5:colcon.colcon_core.verb:set package 'linkattacher_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.660s] Level 5:colcon.colcon_core.verb:set package 'linkattacher_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.660s] DEBUG:colcon.colcon_core.verb:Building package 'linkattacher_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/build/linkattacher_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/linkattacher_msgs', 'merge_install': False, 'path': '/home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/linkattacher_msgs', 'symlink_install': True, 'test_result_base': None}
+[0.666s] Level 5:colcon.colcon_core.verb:set package 'pymoveit2' build argument 'cmake_args' from command line to 'None'
+[0.666s] Level 5:colcon.colcon_core.verb:set package 'pymoveit2' build argument 'cmake_target' from command line to 'None'
+[0.666s] Level 5:colcon.colcon_core.verb:set package 'pymoveit2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.666s] Level 5:colcon.colcon_core.verb:set package 'pymoveit2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.666s] Level 5:colcon.colcon_core.verb:set package 'pymoveit2' build argument 'cmake_clean_first' from command line to 'False'
+[0.666s] Level 5:colcon.colcon_core.verb:set package 'pymoveit2' build argument 'cmake_force_configure' from command line to 'False'
+[0.666s] Level 5:colcon.colcon_core.verb:set package 'pymoveit2' build argument 'ament_cmake_args' from command line to 'None'
+[0.666s] Level 5:colcon.colcon_core.verb:set package 'pymoveit2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.666s] Level 5:colcon.colcon_core.verb:set package 'pymoveit2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.666s] DEBUG:colcon.colcon_core.verb:Building package 'pymoveit2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/build/pymoveit2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/pymoveit2', 'merge_install': False, 'path': '/home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/pymoveit2', 'symlink_install': True, 'test_result_base': None}
+[0.672s] Level 5:colcon.colcon_core.verb:set package 'realsense_gazebo_plugin' build argument 'cmake_args' from command line to 'None'
+[0.672s] Level 5:colcon.colcon_core.verb:set package 'realsense_gazebo_plugin' build argument 'cmake_target' from command line to 'None'
+[0.672s] Level 5:colcon.colcon_core.verb:set package 'realsense_gazebo_plugin' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.672s] Level 5:colcon.colcon_core.verb:set package 'realsense_gazebo_plugin' build argument 'cmake_clean_cache' from command line to 'False'
+[0.672s] Level 5:colcon.colcon_core.verb:set package 'realsense_gazebo_plugin' build argument 'cmake_clean_first' from command line to 'False'
+[0.672s] Level 5:colcon.colcon_core.verb:set package 'realsense_gazebo_plugin' build argument 'cmake_force_configure' from command line to 'False'
+[0.672s] Level 5:colcon.colcon_core.verb:set package 'realsense_gazebo_plugin' build argument 'ament_cmake_args' from command line to 'None'
+[0.672s] Level 5:colcon.colcon_core.verb:set package 'realsense_gazebo_plugin' build argument 'catkin_cmake_args' from command line to 'None'
+[0.672s] Level 5:colcon.colcon_core.verb:set package 'realsense_gazebo_plugin' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.672s] DEBUG:colcon.colcon_core.verb:Building package 'realsense_gazebo_plugin' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/build/realsense_gazebo_plugin', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/realsense_gazebo_plugin', 'merge_install': False, 'path': '/home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/realsense_gazebo_plugin', 'symlink_install': True, 'test_result_base': None}
+[0.679s] Level 5:colcon.colcon_core.verb:set package 'ur5_control' build argument 'cmake_args' from command line to 'None'
+[0.679s] Level 5:colcon.colcon_core.verb:set package 'ur5_control' build argument 'cmake_target' from command line to 'None'
+[0.679s] Level 5:colcon.colcon_core.verb:set package 'ur5_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.679s] Level 5:colcon.colcon_core.verb:set package 'ur5_control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.679s] Level 5:colcon.colcon_core.verb:set package 'ur5_control' build argument 'cmake_clean_first' from command line to 'False'
+[0.679s] Level 5:colcon.colcon_core.verb:set package 'ur5_control' build argument 'cmake_force_configure' from command line to 'False'
+[0.679s] Level 5:colcon.colcon_core.verb:set package 'ur5_control' build argument 'ament_cmake_args' from command line to 'None'
+[0.679s] Level 5:colcon.colcon_core.verb:set package 'ur5_control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.679s] Level 5:colcon.colcon_core.verb:set package 'ur5_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.679s] DEBUG:colcon.colcon_core.verb:Building package 'ur5_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/build/ur5_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/ur5_control', 'merge_install': False, 'path': '/home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/ur5_control', 'symlink_install': True, 'test_result_base': None}
+[0.685s] Level 5:colcon.colcon_core.verb:set package 'ur_description' build argument 'cmake_args' from command line to 'None'
+[0.685s] Level 5:colcon.colcon_core.verb:set package 'ur_description' build argument 'cmake_target' from command line to 'None'
+[0.685s] Level 5:colcon.colcon_core.verb:set package 'ur_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.685s] Level 5:colcon.colcon_core.verb:set package 'ur_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.685s] Level 5:colcon.colcon_core.verb:set package 'ur_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.685s] Level 5:colcon.colcon_core.verb:set package 'ur_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.685s] Level 5:colcon.colcon_core.verb:set package 'ur_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.685s] Level 5:colcon.colcon_core.verb:set package 'ur_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.685s] Level 5:colcon.colcon_core.verb:set package 'ur_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.685s] DEBUG:colcon.colcon_core.verb:Building package 'ur_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/build/ur_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/ur_description', 'merge_install': False, 'path': '/home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/ur_description', 'symlink_install': True, 'test_result_base': None}
+[0.691s] Level 5:colcon.colcon_core.verb:set package 'ur_moveit_config' build argument 'cmake_args' from command line to 'None'
+[0.691s] Level 5:colcon.colcon_core.verb:set package 'ur_moveit_config' build argument 'cmake_target' from command line to 'None'
+[0.691s] Level 5:colcon.colcon_core.verb:set package 'ur_moveit_config' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.692s] Level 5:colcon.colcon_core.verb:set package 'ur_moveit_config' build argument 'cmake_clean_cache' from command line to 'False'
+[0.692s] Level 5:colcon.colcon_core.verb:set package 'ur_moveit_config' build argument 'cmake_clean_first' from command line to 'False'
+[0.692s] Level 5:colcon.colcon_core.verb:set package 'ur_moveit_config' build argument 'cmake_force_configure' from command line to 'False'
+[0.692s] Level 5:colcon.colcon_core.verb:set package 'ur_moveit_config' build argument 'ament_cmake_args' from command line to 'None'
+[0.692s] Level 5:colcon.colcon_core.verb:set package 'ur_moveit_config' build argument 'catkin_cmake_args' from command line to 'None'
+[0.692s] Level 5:colcon.colcon_core.verb:set package 'ur_moveit_config' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.692s] DEBUG:colcon.colcon_core.verb:Building package 'ur_moveit_config' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/build/ur_moveit_config', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/ur_moveit_config', 'merge_install': False, 'path': '/home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/ur_moveit_config', 'symlink_install': True, 'test_result_base': None}
+[0.698s] Level 5:colcon.colcon_core.verb:set package 'ur_simulation_gazebo' build argument 'cmake_args' from command line to 'None'
+[0.698s] Level 5:colcon.colcon_core.verb:set package 'ur_simulation_gazebo' build argument 'cmake_target' from command line to 'None'
+[0.698s] Level 5:colcon.colcon_core.verb:set package 'ur_simulation_gazebo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.698s] Level 5:colcon.colcon_core.verb:set package 'ur_simulation_gazebo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.698s] Level 5:colcon.colcon_core.verb:set package 'ur_simulation_gazebo' build argument 'cmake_clean_first' from command line to 'False'
+[0.698s] Level 5:colcon.colcon_core.verb:set package 'ur_simulation_gazebo' build argument 'cmake_force_configure' from command line to 'False'
+[0.698s] Level 5:colcon.colcon_core.verb:set package 'ur_simulation_gazebo' build argument 'ament_cmake_args' from command line to 'None'
+[0.698s] Level 5:colcon.colcon_core.verb:set package 'ur_simulation_gazebo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.698s] Level 5:colcon.colcon_core.verb:set package 'ur_simulation_gazebo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.698s] DEBUG:colcon.colcon_core.verb:Building package 'ur_simulation_gazebo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/build/ur_simulation_gazebo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/ur_simulation_gazebo', 'merge_install': False, 'path': '/home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/ur_simulation_gazebo', 'symlink_install': True, 'test_result_base': None}
+[0.704s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.711s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.711s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/ur_description' with build type 'ament_cmake'
+[0.711s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/ur_description'
+[0.719s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.719s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.719s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.754s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/ebot_description' with build type 'ament_cmake'
+[0.754s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/ebot_description'
+[0.761s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.761s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.796s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/ebot_nav2' with build type 'ament_cmake'
+[0.796s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/ebot_nav2'
+[0.803s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.803s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.839s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/eyantra_warehouse' with build type 'ament_cmake'
+[0.839s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/eyantra_warehouse'
+[0.846s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.846s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.880s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/linkattacher_msgs' with build type 'ament_cmake'
+[0.880s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/linkattacher_msgs'
+[0.887s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.887s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.922s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/pymoveit2' with build type 'ament_cmake'
+[0.922s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/pymoveit2'
+[0.929s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.929s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.971s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/realsense_gazebo_plugin' with build type 'ament_cmake'
+[0.971s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/realsense_gazebo_plugin'
+[0.978s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.978s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.014s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/ur5_control' with build type 'ament_python'
+[1.014s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur5_control', 'ament_prefix_path')
+[1.021s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/ur5_control/share/ur5_control/hook/ament_prefix_path.ps1'
+[1.022s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/ur5_control/share/ur5_control/hook/ament_prefix_path.dsv'
+[1.022s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/ur5_control/share/ur5_control/hook/ament_prefix_path.sh'
+[1.029s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.029s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.070s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/build/ur_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/ur5_control:/home/rozy/ros2_ws/install/turtlesim_catch_them_all:/home/rozy/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/ur_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/ur_description
+[1.072s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/build/ebot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/ur5_control:/home/rozy/ros2_ws/install/turtlesim_catch_them_all:/home/rozy/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/ebot_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/ebot_description
+[1.073s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/build/ebot_nav2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/ur5_control:/home/rozy/ros2_ws/install/turtlesim_catch_them_all:/home/rozy/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/ebot_nav2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/ebot_nav2
+[1.075s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/build/eyantra_warehouse': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/ur5_control:/home/rozy/ros2_ws/install/turtlesim_catch_them_all:/home/rozy/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/eyantra_warehouse -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/eyantra_warehouse
+[1.077s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/build/linkattacher_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/ur5_control:/home/rozy/ros2_ws/install/turtlesim_catch_them_all:/home/rozy/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/linkattacher_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/linkattacher_msgs
+[1.079s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/build/pymoveit2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/ur5_control:/home/rozy/ros2_ws/install/turtlesim_catch_them_all:/home/rozy/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/pymoveit2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/pymoveit2
+[1.082s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/build/realsense_gazebo_plugin': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/ur5_control:/home/rozy/ros2_ws/install/turtlesim_catch_them_all:/home/rozy/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/realsense_gazebo_plugin -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/realsense_gazebo_plugin
+[1.309s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/ur5_control'
+[1.323s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.323s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.389s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/build/pymoveit2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/ur5_control:/home/rozy/ros2_ws/install/turtlesim_catch_them_all:/home/rozy/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/pymoveit2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/pymoveit2
+[1.390s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/build/pymoveit2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/ur5_control:/home/rozy/ros2_ws/install/turtlesim_catch_them_all:/home/rozy/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/build/pymoveit2 -- -j12 -l12
+[1.391s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/build/eyantra_warehouse' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/ur5_control:/home/rozy/ros2_ws/install/turtlesim_catch_them_all:/home/rozy/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/eyantra_warehouse -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/eyantra_warehouse
+[1.391s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/build/eyantra_warehouse': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/ur5_control:/home/rozy/ros2_ws/install/turtlesim_catch_them_all:/home/rozy/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/build/eyantra_warehouse -- -j12 -l12
+[1.416s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/build/eyantra_warehouse' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/ur5_control:/home/rozy/ros2_ws/install/turtlesim_catch_them_all:/home/rozy/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/build/eyantra_warehouse -- -j12 -l12
+[1.424s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/build/pymoveit2' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/ur5_control:/home/rozy/ros2_ws/install/turtlesim_catch_them_all:/home/rozy/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/build/pymoveit2 -- -j12 -l12
+[1.436s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/build/eyantra_warehouse': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/ur5_control:/home/rozy/ros2_ws/install/turtlesim_catch_them_all:/home/rozy/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/build/eyantra_warehouse
+[1.477s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pymoveit2)
+[1.495s] Level 1:colcon.colcon_core.environment:checking '/home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/pymoveit2' for CMake module files
+[1.495s] Level 1:colcon.colcon_core.environment:checking '/home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/pymoveit2' for CMake config files
+[1.496s] Level 1:colcon.colcon_core.shell:create_environment_hook('pymoveit2', 'cmake_prefix_path')
+[1.509s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/pymoveit2/share/pymoveit2/hook/cmake_prefix_path.ps1'
+[1.509s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/pymoveit2/share/pymoveit2/hook/cmake_prefix_path.dsv'
+[1.509s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/pymoveit2/share/pymoveit2/hook/cmake_prefix_path.sh'
+[1.510s] Level 1:colcon.colcon_core.environment:checking '/home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/pymoveit2/lib'
+[1.510s] Level 1:colcon.colcon_core.environment:checking '/home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/pymoveit2/bin'
+[1.510s] Level 1:colcon.colcon_core.environment:checking '/home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/pymoveit2/lib/pkgconfig/pymoveit2.pc'
+[1.511s] Level 1:colcon.colcon_core.environment:checking '/home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/pymoveit2/lib/python3.10/site-packages'
+[1.511s] Level 1:colcon.colcon_core.environment:checking '/home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/pymoveit2/bin'
+[1.524s] INFO:colcon.colcon_core.shell:Creating package script '/home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/pymoveit2/share/pymoveit2/package.ps1'
+[1.524s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/pymoveit2/share/pymoveit2/package.dsv'
+[1.525s] INFO:colcon.colcon_core.shell:Creating package script '/home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/pymoveit2/share/pymoveit2/package.sh'
+[1.526s] INFO:colcon.colcon_core.shell:Creating package script '/home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/pymoveit2/share/pymoveit2/package.bash'
+[1.526s] INFO:colcon.colcon_core.shell:Creating package script '/home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/pymoveit2/share/pymoveit2/package.zsh'
+[1.527s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/pymoveit2/share/colcon-core/packages/pymoveit2)
+[2.170s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.170s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.170s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[2.170s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.184s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.184s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.184s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.191s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.198s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/local_setup.ps1'
+[2.199s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/_local_setup_util_ps1.py'
+[2.199s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/setup.ps1'
+[2.208s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/local_setup.sh'
+[2.208s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/_local_setup_util_sh.py'
+[2.208s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/setup.sh'
+[2.216s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/local_setup.bash'
+[2.216s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/setup.bash'
+[2.224s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/local_setup.zsh'
+[2.224s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/setup.zsh'

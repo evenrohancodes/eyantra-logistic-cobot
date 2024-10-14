@@ -1,0 +1,27 @@
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/ebot_nav2/share/ebot_nav2//launch/ebot_bringup_launch.py
+-- Symlinking: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/ebot_nav2/share/ebot_nav2//config/ekf.yaml
+-- Symlinking: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/ebot_nav2/share/ebot_nav2//config/mapper_params_online_async.yaml
+-- Symlinking: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/ebot_nav2/share/ebot_nav2//maps/ebotmap.data
+-- Symlinking: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/ebot_nav2/share/ebot_nav2//maps/ebotmap.pgm
+-- Symlinking: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/ebot_nav2/share/ebot_nav2//maps/ebotmap.posegraph
+-- Symlinking: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/ebot_nav2/share/ebot_nav2//maps/ebotmap.yaml
+-- Symlinking: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/ebot_nav2/share/ebot_nav2//maps/map_file_here.text
+-- Symlinking: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/ebot_nav2/share/ebot_nav2//params/nav2_params.yaml
+-- Symlinking: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/ebot_nav2/share/ebot_nav2//rviz/nav2_default_view.rviz
+-- Symlinking: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/ebot_nav2/share/ament_index/resource_index/package_run_dependencies/ebot_nav2
+-- Symlinking: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/ebot_nav2/share/ament_index/resource_index/parent_prefix_path/ebot_nav2
+-- Symlinking: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/ebot_nav2/share/ebot_nav2/environment/ament_prefix_path.sh
+-- Symlinking: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/ebot_nav2/share/ebot_nav2/environment/ament_prefix_path.dsv
+-- Symlinking: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/ebot_nav2/share/ebot_nav2/environment/path.sh
+-- Symlinking: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/ebot_nav2/share/ebot_nav2/environment/path.dsv
+-- Symlinking: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/ebot_nav2/share/ebot_nav2/local_setup.bash
+-- Symlinking: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/ebot_nav2/share/ebot_nav2/local_setup.sh
+-- Symlinking: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/ebot_nav2/share/ebot_nav2/local_setup.zsh
+-- Symlinking: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/ebot_nav2/share/ebot_nav2/local_setup.dsv
+-- Symlinking: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/ebot_nav2/share/ebot_nav2/package.dsv
+-- Symlinking: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/ebot_nav2/share/ament_index/resource_index/packages/ebot_nav2
+-- Symlinking: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/ebot_nav2/share/ebot_nav2/cmake/ebot_nav2Config.cmake
+-- Symlinking: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/ebot_nav2/share/ebot_nav2/cmake/ebot_nav2Config-version.cmake
+-- Symlinking: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/ebot_nav2/share/ebot_nav2/package.xml

@@ -1,0 +1,177 @@
+[0.205s] Invoking command in '/home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/build/linkattacher_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/ur5_control:/home/rozy/ros2_ws/install/turtlesim_catch_them_all:/home/rozy/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/build/linkattacher_msgs -- -j12 -l12
+[0.225s] -- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.326s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.332s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.379s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.382s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.385s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.408s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.563s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.694s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.864s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.892s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[0.911s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.911s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[0.911s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[0.931s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.932s] -- Added test 'lint_cmake' to check CMake code style
+[0.933s] -- Added test 'xmllint' to check XML markup files
+[0.936s] -- Configuring done
+[0.954s] -- Generating done
+[0.956s] -- Build files have been written to: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/build/linkattacher_msgs
+[0.972s] [35m[1mConsolidate compiler generated dependencies of target linkattacher_msgs__rosidl_generator_c[0m
+[0.979s] [  2%] Built target linkattacher_msgs__cpp
+[0.979s] [ 12%] Built target linkattacher_msgs__rosidl_generator_c
+[0.986s] [ 12%] Built target ament_cmake_python_symlink_linkattacher_msgs
+[0.986s] [35m[1mConsolidate compiler generated dependencies of target linkattacher_msgs__rosidl_typesupport_introspection_cpp[0m
+[0.988s] [35m[1mConsolidate compiler generated dependencies of target linkattacher_msgs__rosidl_typesupport_cpp[0m
+[0.988s] [35m[1mConsolidate compiler generated dependencies of target linkattacher_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[0.989s] [35m[1mConsolidate compiler generated dependencies of target linkattacher_msgs__rosidl_typesupport_introspection_c[0m
+[0.989s] [35m[1mConsolidate compiler generated dependencies of target linkattacher_msgs__rosidl_typesupport_c[0m
+[0.989s] [35m[1mConsolidate compiler generated dependencies of target linkattacher_msgs__rosidl_typesupport_fastrtps_c[0m
+[0.998s] [ 23%] Built target linkattacher_msgs__rosidl_typesupport_introspection_cpp
+[0.998s] [ 33%] Built target linkattacher_msgs__rosidl_typesupport_c
+[0.998s] [ 43%] Built target linkattacher_msgs__rosidl_typesupport_introspection_c
+[0.999s] [ 53%] Built target linkattacher_msgs__rosidl_typesupport_cpp
+[1.000s] [ 64%] Built target linkattacher_msgs__rosidl_typesupport_fastrtps_c
+[1.001s] [ 74%] Built target linkattacher_msgs__rosidl_typesupport_fastrtps_cpp
+[1.014s] [ 74%] Built target linkattacher_msgs
+[1.029s] [ 76%] Built target linkattacher_msgs__py
+[1.036s] [35m[1mConsolidate compiler generated dependencies of target linkattacher_msgs__rosidl_generator_py[0m
+[1.046s] [ 84%] Built target linkattacher_msgs__rosidl_generator_py
+[1.053s] [35m[1mConsolidate compiler generated dependencies of target linkattacher_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[1.054s] [35m[1mConsolidate compiler generated dependencies of target linkattacher_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[1.055s] [35m[1mConsolidate compiler generated dependencies of target linkattacher_msgs__rosidl_typesupport_c__pyext[0m
+[1.062s] [ 87%] [32m[1mLinking C shared library rosidl_generator_py/linkattacher_msgs/linkattacher_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[1.062s] [ 89%] [32m[1mLinking C shared library rosidl_generator_py/linkattacher_msgs/linkattacher_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[1.064s] [ 92%] [32m[1mLinking C shared library rosidl_generator_py/linkattacher_msgs/linkattacher_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[1.083s] [ 94%] Built target linkattacher_msgs__rosidl_typesupport_introspection_c__pyext
+[1.084s] [100%] Built target linkattacher_msgs__rosidl_typesupport_c__pyext
+[1.084s] [100%] Built target linkattacher_msgs__rosidl_typesupport_fastrtps_c__pyext
+[1.161s] running egg_info
+[1.161s] creating linkattacher_msgs.egg-info
+[1.162s] writing linkattacher_msgs.egg-info/PKG-INFO
+[1.162s] writing dependency_links to linkattacher_msgs.egg-info/dependency_links.txt
+[1.162s] writing top-level names to linkattacher_msgs.egg-info/top_level.txt
+[1.162s] writing manifest file 'linkattacher_msgs.egg-info/SOURCES.txt'
+[1.163s] reading manifest file 'linkattacher_msgs.egg-info/SOURCES.txt'
+[1.163s] writing manifest file 'linkattacher_msgs.egg-info/SOURCES.txt'
+[1.180s] [100%] Built target ament_cmake_python_build_linkattacher_msgs_egg
+[1.186s] Invoked command in '/home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/build/linkattacher_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/ur5_control:/home/rozy/ros2_ws/install/turtlesim_catch_them_all:/home/rozy/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/build/linkattacher_msgs -- -j12 -l12
+[1.236s] Invoking command in '/home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/build/linkattacher_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/ur5_control:/home/rozy/ros2_ws/install/turtlesim_catch_them_all:/home/rozy/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/build/linkattacher_msgs
+[1.240s] -- Install configuration: ""
+[1.241s] -- Execute custom install script
+[1.241s] -- Symlinking: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/linkattacher_msgs/share/linkattacher_msgs/srv/AttachLink.srv
+[1.246s] -- Symlinking: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/linkattacher_msgs/share/linkattacher_msgs/srv/DetachLink.srv
+[1.251s] -- Symlinking: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/linkattacher_msgs/share/ament_index/resource_index/rosidl_interfaces/linkattacher_msgs
+[1.256s] -- Symlinking: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/msg/rosidl_generator_c__visibility_control.h
+[1.261s] -- Symlinking: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/attach_link.h
+[1.266s] -- Symlinking: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detach_link.h
+[1.271s] -- Symlinking: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/attach_link__functions.h
+[1.276s] -- Symlinking: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/attach_link__struct.h
+[1.281s] -- Symlinking: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/attach_link__type_support.h
+[1.286s] -- Symlinking: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/detach_link__functions.h
+[1.291s] -- Symlinking: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/detach_link__struct.h
+[1.296s] -- Symlinking: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/detach_link__type_support.h
+[1.301s] -- Symlinking: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/linkattacher_msgs/share/linkattacher_msgs/environment/library_path.sh
+[1.306s] -- Symlinking: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/linkattacher_msgs/share/linkattacher_msgs/environment/library_path.dsv
+[1.310s] -- Symlinking: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.316s] -- Symlinking: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/attach_link__rosidl_typesupport_fastrtps_c.h
+[1.320s] -- Symlinking: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/detach_link__rosidl_typesupport_fastrtps_c.h
+[1.325s] -- Symlinking: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.330s] -- Symlinking: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/attach_link__rosidl_typesupport_introspection_c.h
+[1.335s] -- Symlinking: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/detach_link__rosidl_typesupport_introspection_c.h
+[1.340s] -- Symlinking: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/attach_link.hpp
+[1.345s] -- Symlinking: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detach_link.hpp
+[1.350s] -- Symlinking: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/attach_link__builder.hpp
+[1.355s] -- Symlinking: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/attach_link__struct.hpp
+[1.359s] -- Symlinking: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/attach_link__traits.hpp
+[1.364s] -- Symlinking: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/detach_link__builder.hpp
+[1.369s] -- Symlinking: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/detach_link__struct.hpp
+[1.374s] -- Symlinking: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/detach_link__traits.hpp
+[1.379s] -- Symlinking: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.384s] -- Symlinking: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/attach_link__rosidl_typesupport_fastrtps_cpp.hpp
+[1.389s] -- Symlinking: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/detach_link__rosidl_typesupport_fastrtps_cpp.hpp
+[1.394s] -- Symlinking: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/attach_link__rosidl_typesupport_introspection_cpp.hpp
+[1.398s] -- Symlinking: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/detach_link__rosidl_typesupport_introspection_cpp.hpp
+[1.403s] -- Symlinking: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/linkattacher_msgs/share/linkattacher_msgs/environment/pythonpath.sh
+[1.407s] -- Symlinking: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/linkattacher_msgs/share/linkattacher_msgs/environment/pythonpath.dsv
+[1.412s] -- Symlinking: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/linkattacher_msgs/local/lib/python3.10/dist-packages/linkattacher_msgs-0.0.0-py3.10.egg-info/PKG-INFO
+[1.416s] -- Symlinking: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/linkattacher_msgs/local/lib/python3.10/dist-packages/linkattacher_msgs-0.0.0-py3.10.egg-info/SOURCES.txt
+[1.421s] -- Symlinking: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/linkattacher_msgs/local/lib/python3.10/dist-packages/linkattacher_msgs-0.0.0-py3.10.egg-info/dependency_links.txt
+[1.425s] -- Symlinking: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/linkattacher_msgs/local/lib/python3.10/dist-packages/linkattacher_msgs-0.0.0-py3.10.egg-info/top_level.txt
+[1.430s] -- Symlinking: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/linkattacher_msgs/local/lib/python3.10/dist-packages/linkattacher_msgs/__init__.py
+[1.434s] -- Symlinking: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/linkattacher_msgs/local/lib/python3.10/dist-packages/linkattacher_msgs/_linkattacher_msgs_s.ep.rosidl_typesupport_c.c
+[1.439s] -- Symlinking: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/linkattacher_msgs/local/lib/python3.10/dist-packages/linkattacher_msgs/_linkattacher_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[1.444s] -- Symlinking: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/linkattacher_msgs/local/lib/python3.10/dist-packages/linkattacher_msgs/_linkattacher_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[1.450s] -- Symlinking: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/linkattacher_msgs/local/lib/python3.10/dist-packages/linkattacher_msgs/liblinkattacher_msgs__rosidl_generator_py.so
+[1.455s] -- Symlinking: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/linkattacher_msgs/local/lib/python3.10/dist-packages/linkattacher_msgs/linkattacher_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.460s] -- Symlinking: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/linkattacher_msgs/local/lib/python3.10/dist-packages/linkattacher_msgs/linkattacher_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.465s] -- Symlinking: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/linkattacher_msgs/local/lib/python3.10/dist-packages/linkattacher_msgs/linkattacher_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.470s] -- Symlinking: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/linkattacher_msgs/local/lib/python3.10/dist-packages/linkattacher_msgs/srv/__init__.py
+[1.475s] -- Symlinking: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/linkattacher_msgs/local/lib/python3.10/dist-packages/linkattacher_msgs/srv/_attach_link.py
+[1.481s] -- Symlinking: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/linkattacher_msgs/local/lib/python3.10/dist-packages/linkattacher_msgs/srv/_attach_link_s.c
+[1.486s] -- Symlinking: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/linkattacher_msgs/local/lib/python3.10/dist-packages/linkattacher_msgs/srv/_detach_link.py
+[1.491s] -- Symlinking: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/linkattacher_msgs/local/lib/python3.10/dist-packages/linkattacher_msgs/srv/_detach_link_s.c
+[1.496s] -- Up-to-date symlink: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/linkattacher_msgs/local/lib/python3.10/dist-packages/linkattacher_msgs/linkattacher_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.496s] -- Up-to-date symlink: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/linkattacher_msgs/local/lib/python3.10/dist-packages/linkattacher_msgs/linkattacher_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.496s] -- Up-to-date symlink: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/linkattacher_msgs/local/lib/python3.10/dist-packages/linkattacher_msgs/linkattacher_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.496s] -- Symlinking: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/linkattacher_msgs/share/linkattacher_msgs/srv/AttachLink.idl
+[1.501s] -- Symlinking: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/linkattacher_msgs/share/linkattacher_msgs/srv/DetachLink.idl
+[1.506s] -- Up-to-date symlink: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/linkattacher_msgs/share/linkattacher_msgs/srv/AttachLink.srv
+[1.506s] -- Symlinking: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/linkattacher_msgs/share/linkattacher_msgs/srv/AttachLink_Request.msg
+[1.511s] -- Symlinking: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/linkattacher_msgs/share/linkattacher_msgs/srv/AttachLink_Response.msg
+[1.516s] -- Up-to-date symlink: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/linkattacher_msgs/share/linkattacher_msgs/srv/DetachLink.srv
+[1.516s] -- Symlinking: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/linkattacher_msgs/share/linkattacher_msgs/srv/DetachLink_Request.msg
+[1.520s] -- Symlinking: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/linkattacher_msgs/share/linkattacher_msgs/srv/DetachLink_Response.msg
+[1.526s] -- Symlinking: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/linkattacher_msgs/share/ament_index/resource_index/package_run_dependencies/linkattacher_msgs
+[1.532s] -- Symlinking: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/linkattacher_msgs/share/ament_index/resource_index/parent_prefix_path/linkattacher_msgs
+[1.538s] -- Symlinking: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/linkattacher_msgs/share/linkattacher_msgs/environment/ament_prefix_path.sh
+[1.544s] -- Symlinking: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/linkattacher_msgs/share/linkattacher_msgs/environment/ament_prefix_path.dsv
+[1.548s] -- Symlinking: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/linkattacher_msgs/share/linkattacher_msgs/environment/path.sh
+[1.553s] -- Symlinking: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/linkattacher_msgs/share/linkattacher_msgs/environment/path.dsv
+[1.558s] -- Symlinking: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/linkattacher_msgs/share/linkattacher_msgs/local_setup.bash
+[1.562s] -- Symlinking: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/linkattacher_msgs/share/linkattacher_msgs/local_setup.sh
+[1.567s] -- Symlinking: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/linkattacher_msgs/share/linkattacher_msgs/local_setup.zsh
+[1.572s] -- Symlinking: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/linkattacher_msgs/share/linkattacher_msgs/local_setup.dsv
+[1.577s] -- Symlinking: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/linkattacher_msgs/share/linkattacher_msgs/package.dsv
+[1.581s] -- Symlinking: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/linkattacher_msgs/share/ament_index/resource_index/packages/linkattacher_msgs
+[1.586s] -- Symlinking: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/linkattacher_msgs/share/linkattacher_msgs/cmake/rosidl_cmake-extras.cmake
+[1.590s] -- Symlinking: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/linkattacher_msgs/share/linkattacher_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.595s] -- Symlinking: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/linkattacher_msgs/share/linkattacher_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[1.600s] -- Symlinking: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/linkattacher_msgs/share/linkattacher_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[1.604s] -- Symlinking: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/linkattacher_msgs/share/linkattacher_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.609s] -- Symlinking: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/linkattacher_msgs/share/linkattacher_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.616s] -- Symlinking: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/linkattacher_msgs/share/linkattacher_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.622s] -- Symlinking: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/linkattacher_msgs/share/linkattacher_msgs/cmake/linkattacher_msgsConfig.cmake
+[1.627s] -- Symlinking: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/linkattacher_msgs/share/linkattacher_msgs/cmake/linkattacher_msgsConfig-version.cmake
+[1.632s] -- Symlinking: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/linkattacher_msgs/share/linkattacher_msgs/package.xml
+[1.638s] -- Up-to-date: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/linkattacher_msgs/lib/liblinkattacher_msgs__rosidl_generator_c.so
+[1.638s] -- Up-to-date: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/linkattacher_msgs/lib/liblinkattacher_msgs__rosidl_typesupport_fastrtps_c.so
+[1.638s] -- Up-to-date: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/linkattacher_msgs/lib/liblinkattacher_msgs__rosidl_typesupport_introspection_c.so
+[1.638s] -- Up-to-date: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/linkattacher_msgs/lib/liblinkattacher_msgs__rosidl_typesupport_c.so
+[1.638s] -- Up-to-date: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/linkattacher_msgs/lib/liblinkattacher_msgs__rosidl_typesupport_fastrtps_cpp.so
+[1.638s] -- Up-to-date: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/linkattacher_msgs/lib/liblinkattacher_msgs__rosidl_typesupport_introspection_cpp.so
+[1.638s] -- Up-to-date: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/linkattacher_msgs/lib/liblinkattacher_msgs__rosidl_typesupport_cpp.so
+[1.660s] Listing '/home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/linkattacher_msgs/local/lib/python3.10/dist-packages/linkattacher_msgs'...
+[1.660s] Compiling '/home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/linkattacher_msgs/local/lib/python3.10/dist-packages/linkattacher_msgs/__init__.py'...
+[1.660s] Listing '/home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/linkattacher_msgs/local/lib/python3.10/dist-packages/linkattacher_msgs/srv'...
+[1.663s] -- Up-to-date: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/linkattacher_msgs/lib/liblinkattacher_msgs__rosidl_generator_py.so
+[1.663s] -- Up-to-date: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/linkattacher_msgs/share/linkattacher_msgs/cmake/export_linkattacher_msgs__rosidl_generator_cExport.cmake
+[1.663s] -- Up-to-date: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/linkattacher_msgs/share/linkattacher_msgs/cmake/export_linkattacher_msgs__rosidl_generator_cExport-noconfig.cmake
+[1.663s] -- Up-to-date: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/linkattacher_msgs/share/linkattacher_msgs/cmake/export_linkattacher_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[1.663s] -- Up-to-date: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/linkattacher_msgs/share/linkattacher_msgs/cmake/export_linkattacher_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[1.663s] -- Up-to-date: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/linkattacher_msgs/share/linkattacher_msgs/cmake/linkattacher_msgs__rosidl_typesupport_introspection_cExport.cmake
+[1.663s] -- Up-to-date: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/linkattacher_msgs/share/linkattacher_msgs/cmake/linkattacher_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[1.663s] -- Up-to-date: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/linkattacher_msgs/share/linkattacher_msgs/cmake/linkattacher_msgs__rosidl_typesupport_cExport.cmake
+[1.663s] -- Up-to-date: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/linkattacher_msgs/share/linkattacher_msgs/cmake/linkattacher_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[1.663s] -- Up-to-date: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/linkattacher_msgs/share/linkattacher_msgs/cmake/export_linkattacher_msgs__rosidl_generator_cppExport.cmake
+[1.663s] -- Up-to-date: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/linkattacher_msgs/share/linkattacher_msgs/cmake/export_linkattacher_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[1.663s] -- Up-to-date: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/linkattacher_msgs/share/linkattacher_msgs/cmake/export_linkattacher_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[1.663s] -- Up-to-date: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/linkattacher_msgs/share/linkattacher_msgs/cmake/linkattacher_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[1.663s] -- Up-to-date: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/linkattacher_msgs/share/linkattacher_msgs/cmake/linkattacher_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[1.664s] -- Up-to-date: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/linkattacher_msgs/share/linkattacher_msgs/cmake/linkattacher_msgs__rosidl_typesupport_cppExport.cmake
+[1.664s] -- Up-to-date: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/linkattacher_msgs/share/linkattacher_msgs/cmake/linkattacher_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[1.664s] -- Up-to-date: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/linkattacher_msgs/share/linkattacher_msgs/cmake/export_linkattacher_msgs__rosidl_generator_pyExport.cmake
+[1.664s] -- Up-to-date: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/linkattacher_msgs/share/linkattacher_msgs/cmake/export_linkattacher_msgs__rosidl_generator_pyExport-noconfig.cmake
+[1.665s] Invoked command in '/home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/build/linkattacher_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/ur5_control:/home/rozy/ros2_ws/install/turtlesim_catch_them_all:/home/rozy/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/build/linkattacher_msgs

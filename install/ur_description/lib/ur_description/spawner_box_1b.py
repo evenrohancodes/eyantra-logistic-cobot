@@ -1,0 +1,1 @@
+/home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/ur_description/scripts/armed_1/spawner_box_1b.py

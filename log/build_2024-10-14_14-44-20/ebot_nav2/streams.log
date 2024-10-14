@@ -1,0 +1,74 @@
+[0.233s] Invoking command in '/home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/build/ebot_nav2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rozy/ros2_ws/install/turtlesim_catch_them_all:/home/rozy/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/ebot_nav2 -DCMAKE_INSTALL_PREFIX=/home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/ebot_nav2
+[0.516s] -- The C compiler identification is GNU 11.4.0
+[0.516s] -- The CXX compiler identification is GNU 11.4.0
+[0.516s] -- Detecting C compiler ABI info
+[0.516s] -- Detecting C compiler ABI info - done
+[0.516s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.517s] -- Detecting C compile features
+[0.517s] -- Detecting C compile features - done
+[0.517s] -- Detecting CXX compiler ABI info
+[0.520s] -- Detecting CXX compiler ABI info - done
+[0.525s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.525s] -- Detecting CXX compile features
+[0.526s] -- Detecting CXX compile features - done
+[0.533s] -- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.687s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.765s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[0.817s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.823s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.834s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.850s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.871s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.947s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.950s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.037s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.060s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.097s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.106s] -- Looking for pthread.h
+[1.169s] -- Looking for pthread.h - found
+[1.169s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.223s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.224s] -- Found Threads: TRUE  
+[1.361s] -- Found rclpy: 3.3.11 (/opt/ros/humble/share/rclpy/cmake)
+[1.363s] -- Found urdf: 2.6.0 (/opt/ros/humble/share/urdf/cmake)
+[1.399s] -- Found xacro: 2.0.8 (/opt/ros/humble/share/xacro/cmake)
+[1.400s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.461s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.462s] -- Added test 'lint_cmake' to check CMake code style
+[1.462s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.464s] -- Added test 'xmllint' to check XML markup files
+[1.465s] -- Configuring done
+[1.468s] -- Generating done
+[1.470s] -- Build files have been written to: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/build/ebot_nav2
+[1.482s] Invoked command in '/home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/build/ebot_nav2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rozy/ros2_ws/install/turtlesim_catch_them_all:/home/rozy/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/ebot_nav2 -DCMAKE_INSTALL_PREFIX=/home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/ebot_nav2
+[1.484s] Invoking command in '/home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/build/ebot_nav2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rozy/ros2_ws/install/turtlesim_catch_them_all:/home/rozy/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/build/ebot_nav2 -- -j12 -l12
+[1.523s] Invoked command in '/home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/build/ebot_nav2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rozy/ros2_ws/install/turtlesim_catch_them_all:/home/rozy/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/build/ebot_nav2 -- -j12 -l12
+[1.609s] Invoking command in '/home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/build/ebot_nav2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rozy/ros2_ws/install/turtlesim_catch_them_all:/home/rozy/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/build/ebot_nav2
+[1.614s] -- Install configuration: ""
+[1.614s] -- Installing: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/ebot_nav2/share/ebot_nav2//launch
+[1.614s] -- Installing: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/ebot_nav2/share/ebot_nav2//launch/ebot_bringup_launch.py
+[1.614s] -- Installing: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/ebot_nav2/share/ebot_nav2//config
+[1.614s] -- Installing: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/ebot_nav2/share/ebot_nav2//config/ekf.yaml
+[1.614s] -- Installing: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/ebot_nav2/share/ebot_nav2//config/mapper_params_online_async.yaml
+[1.615s] -- Installing: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/ebot_nav2/share/ebot_nav2//maps
+[1.615s] -- Installing: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/ebot_nav2/share/ebot_nav2//maps/map_file_here.text
+[1.615s] -- Installing: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/ebot_nav2/share/ebot_nav2//params
+[1.615s] -- Installing: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/ebot_nav2/share/ebot_nav2//params/nav2_params.yaml
+[1.615s] -- Installing: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/ebot_nav2/share/ebot_nav2//rviz
+[1.615s] -- Installing: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/ebot_nav2/share/ebot_nav2//rviz/nav2_default_view.rviz
+[1.615s] -- Installing: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/ebot_nav2/share/ament_index/resource_index/package_run_dependencies/ebot_nav2
+[1.615s] -- Installing: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/ebot_nav2/share/ament_index/resource_index/parent_prefix_path/ebot_nav2
+[1.615s] -- Installing: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/ebot_nav2/share/ebot_nav2/environment/ament_prefix_path.sh
+[1.615s] -- Installing: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/ebot_nav2/share/ebot_nav2/environment/ament_prefix_path.dsv
+[1.615s] -- Installing: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/ebot_nav2/share/ebot_nav2/environment/path.sh
+[1.615s] -- Installing: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/ebot_nav2/share/ebot_nav2/environment/path.dsv
+[1.616s] -- Installing: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/ebot_nav2/share/ebot_nav2/local_setup.bash
+[1.616s] -- Installing: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/ebot_nav2/share/ebot_nav2/local_setup.sh
+[1.616s] -- Installing: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/ebot_nav2/share/ebot_nav2/local_setup.zsh
+[1.616s] -- Installing: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/ebot_nav2/share/ebot_nav2/local_setup.dsv
+[1.616s] -- Installing: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/ebot_nav2/share/ebot_nav2/package.dsv
+[1.616s] -- Installing: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/ebot_nav2/share/ament_index/resource_index/packages/ebot_nav2
+[1.616s] -- Installing: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/ebot_nav2/share/ebot_nav2/cmake/ebot_nav2Config.cmake
+[1.616s] -- Installing: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/ebot_nav2/share/ebot_nav2/cmake/ebot_nav2Config-version.cmake
+[1.617s] -- Installing: /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/ebot_nav2/share/ebot_nav2/package.xml
+[1.618s] Invoked command in '/home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/build/ebot_nav2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rozy/ros2_ws/install/turtlesim_catch_them_all:/home/rozy/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/build/ebot_nav2

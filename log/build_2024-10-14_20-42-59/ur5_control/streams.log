@@ -1,0 +1,21 @@
+[0.776s] Invoking command in '/home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/ur5_control': PYTHONPATH=/home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/build/ur5_control/prefix_override:/home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/ur5_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/ur5_control build --build-base /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/build/ur5_control/build install --record /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/build/ur5_control/install.log --single-version-externally-managed
+[0.935s] running egg_info
+[0.935s] writing ../build/ur5_control/ur5_control.egg-info/PKG-INFO
+[0.936s] writing dependency_links to ../build/ur5_control/ur5_control.egg-info/dependency_links.txt
+[0.936s] writing entry points to ../build/ur5_control/ur5_control.egg-info/entry_points.txt
+[0.936s] writing requirements to ../build/ur5_control/ur5_control.egg-info/requires.txt
+[0.936s] writing top-level names to ../build/ur5_control/ur5_control.egg-info/top_level.txt
+[0.937s] reading manifest file '../build/ur5_control/ur5_control.egg-info/SOURCES.txt'
+[0.937s] writing manifest file '../build/ur5_control/ur5_control.egg-info/SOURCES.txt'
+[0.938s] running build
+[0.938s] running build_py
+[0.938s] running install
+[0.938s] running install_lib
+[0.939s] running install_data
+[0.939s] running install_egg_info
+[0.940s] removing '/home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/ur5_control/lib/python3.10/site-packages/ur5_control-0.0.0-py3.10.egg-info' (and everything under it)
+[0.940s] Copying ../build/ur5_control/ur5_control.egg-info to /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/ur5_control/lib/python3.10/site-packages/ur5_control-0.0.0-py3.10.egg-info
+[0.941s] running install_scripts
+[0.956s] Installing task1b script to /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/ur5_control/lib/ur5_control
+[0.956s] writing list of installed files to '/home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/build/ur5_control/install.log'
+[0.998s] Invoked command in '/home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/ur5_control' returned '0': PYTHONPATH=/home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/build/ur5_control/prefix_override:/home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/install/ur5_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/ur5_control build --build-base /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/build/ur5_control/build install --record /home/rozy/e-Yantra/logistic-cobot/eyrc-24-25-logistic-cobot/build/ur5_control/install.log --single-version-externally-managed
